@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gwiazdorskie</title>
+    <script src="https://kit.fontawesome.com/4a1df0074f.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="navigation">
+        <a href="index.html"><img src="/img/logo_bnp.svg" class="logo" alt="Logo banku BNP"></a>
+        <div class="mobile">
+            <!-- tutaj nawigacja mobile -->
+        </div>
+        <div class="desktop">
+            <ul>
+                <li><a href="agenda.html"> agenda</a></li>
+                <li><a href="place.html">miejsce konferencji</a></li>
+                <li><a href="helpdesk.html">helpdesk</a></li>
+            </ul>
+            <!-- tutaj nawigacja mobie  -->
+        </div>
+        <div class="mobile">
+            <a href="#" class='hamburger'><i class="hamburger fas fa-bars"></i></a>
+            <div class="mobile-items">
+                <ul>
+                    <li><a href="agenda.html"> agenda</a></li>
+                    <li><a href="place.html">miejsce konferencji</a></li>
+                    <li><a href="helpdesk.html">helpdesk</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div w3-include-html="header.html"></div>
+
+    <div class="wrapper">
+        <div class="content-board" data-aos="fade-up" data-aos-delay="100" data-aos-duration='1000'>
+            <div class="title">
+                <h2>Agenda</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="content">
+                <div class="agenda">
+                    <h3 class="day">Dzień 1</h3>
+                    <p class="date">
+                        Wtorek, 14 września
+                    </p>
+                    <p class="event"><span>12:00-13:00</span>Lunch (restauracja hotelowa)</p>
+                    <p class="event"><span>13:00-15:00</span>Część merytoryczna spotkania</p>
+                    <p class="event"><span>15:00-15:45</span>Przerwa, zameldowanie w pokojach</p>
+                    <p class="event"><span>15:45-19:30</span>Warsztaty - Teambuilding</p>
+                    <p class="event"><span>20:00-02:00</span>Uroczysta kolacja</p>
+                    </p>
+                </div>
+                <div class="line"></div>
+                <div class="agenda">
+                    <h3 class="day">Dzień 2</h3>
+                    <p class="date">
+                        Środa, 15 września
+                    </p>
+                    <p class="event"><span>07:00-09:00</span>Śniadanie, wymeldowanie</p>
+                    <p class="event"><span>09:00-11:00</span>Warsztaty</p>
+                    <p class="event"><span>11:00-11:15</span>Przerwa</p>
+                    <p class="event"><span>11:15-12:00</span>Podsumowanie warsztatów</p>
+                    <p class="event"><span>12:00-13:00</span>Power speech</p>
+                    <p class="event"><span>13:00-14:00</span>Lunch (namiot Atlantis) & wyjazd</p>
+                    </p>
+                </div>
+            </div>
+            <div class="add-info">
+                <p class="info-meeting">
+                    Spotykamy się po dłuższym czasie w przyjaznej atmosferze. Nie możemy się już doczekać.<br>
+                    <span>Podczas konferencji i warsztatów wybierz strój półformalny, a na wieczór
+                        koktajlowy.</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/script.js"></script>
+    <script>
+        includeHTML();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gwiazdorskie</title>
+    <script src="https://kit.fontawesome.com/4a1df0074f.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="navigation">
+        <a href="index.html"><img src="/img/logo_bnp.svg" class="logo" alt="Logo banku BNP"></a>
+        <div class="mobile">
+            <!-- tutaj nawigacja mobile -->
+        </div>
+        <div class="desktop">
+            <ul>
+                <li><a href="agenda.html"> agenda</a></li>
+                <li><a href="place.html">miejsce konferencji</a></li>
+                <li><a href="helpdesk.html">helpdesk</a></li>
+            </ul>
+            <!-- tutaj nawigacja mobie  -->
+        </div>
+        <div class="mobile">
+            <a href="#" class='hamburger'><i class="hamburger fas fa-bars"></i></a>
+            <div class="mobile-items">
+                <ul>
+                    <li><a href="agenda.html"> agenda</a></li>
+                    <li><a href="place.html">miejsce konferencji</a></li>
+                    <li><a href="helpdesk.html">helpdesk</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div w3-include-html="header.html"></div>
+
+    <div class="wrapper">
+        <div class="content-board" data-aos="fade-up" data-aos-delay="100" data-aos-duration='1000'>
+            <div class="title">
+                <h2>Miejsce konferencji</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="content">
+                <div class="left-side up-position">
+                    <div class="info">
+                        <h3>hotel copernicus toruń</h3>
+                        <p>Bulwar Filadelfijski 11, Toruń<br>
+                            <span>copernicus.hotel.com.pl/hotel-copernicus</span></p>
+                        <p>
+                            Zakwaterowanie w pokojach od godziny 16:00,
+                            wymeldowanie do godziny 12:00
+                        </p>
+                        <p>
+                            SPA czynne w godzinach 10:00-21:00.<br>
+                            Basen czynny w godzinach 09:00-21:00.
+                        </p>
+                    </div>
+                    <div class="map img">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9602.804760089783!2d18.596325!3d53.007757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4703351c6be50943%3A0x595af9a82e7570e!2sBulwar%20Filadelfijski%2011%2C%2087-100%20Toru%C5%84!5e0!3m2!1spl!2spl!4v1630936276108!5m2!1spl!2spl"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="right-side img up-position"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/script.js"></script>
+    <script>
+        includeHTML();
+    </script>
+
+</body>
+
+</html>

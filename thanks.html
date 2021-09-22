@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gwiazdorskie</title>
+    <script src="https://kit.fontawesome.com/4a1df0074f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="navigation">
+        <a href="index.html"><img src="/img/logo_bnp.svg" class="logo" alt="Logo banku BNP"></a>
+        <div class="mobile">
+            <!-- tutaj nawigacja mobile -->
+        </div>
+        <div class="desktop">
+            <ul>
+                <li><a href="agenda.html"> agenda</a></li>
+                <li><a href="place.html">miejsce konferencji</a></li>
+                <li><a href="helpdesk.html">helpdesk</a></li>
+            </ul>
+            <!-- tutaj nawigacja mobie  -->
+        </div>
+        <div class="mobile">
+            <a href="#" class='hamburger'><i class="hamburger fas fa-bars"></i></a>
+            <div class="mobile-items">
+                <ul>
+                    <li><a href="agenda.html"> agenda</a></li>
+                    <li><a href="place.html">miejsce konferencji</a></li>
+                    <li><a href="helpdesk.html">helpdesk</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div w3-include-html="header.html"></div>
+
+    <div class="wrapper">
+        <div class="content-board thanks-board">
+            <p>Dziękujemy za wysłanie pytania.<br>Sprawdź skrzynkę mailową.</p>
+            <a href="index.html">Wróć na stronę główną</a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script>
+        includeHTML();
+    </script>
+
+</body>
+
+</html>
