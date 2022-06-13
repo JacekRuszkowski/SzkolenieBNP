@@ -222,7 +222,7 @@ a {
   z-index: -1;
 }
 
-.header h1 {
+.header h2 {
   font-weight: 900;
   font-size: 40px;
   margin-bottom: -5px;
@@ -279,7 +279,7 @@ a {
   margin-bottom: 40px;
 }
 
-.content-board .title h2 {
+.content-board .title h1 {
   font-family: var(--bold_font);
   font-size: 35px;
   text-transform: uppercase;
@@ -470,6 +470,7 @@ a {
 
 .content-board .content .right-side-form .message {
   height: 330px;
+  resize: none;
   width: 100%;
   padding: 10px;
   font-family: 'bnpp_sans';
@@ -483,6 +484,7 @@ a {
   font-weight: bold;
   line-height: 30px;
   background-color: #e8bb45;
+  cursor: pointer;
 }
 
 .thanks-board {
@@ -595,7 +597,7 @@ a {
   .content-board {
     padding: 60px 10px;
   }
-  .content-board .title h2 {
+  .content-board .title h1 {
     font-size: 26px;
   }
   .content-board .content .event {
